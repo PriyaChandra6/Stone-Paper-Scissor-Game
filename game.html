@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icons8-game-of-thrones-50.png" type="image/x-icon">
+  <title>Stone, Paper & Scissor game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <h1>Stone Paper Scissor</h1>
+  <div class="container">
+  <div class="choices">
+      <div class="choice" id="rock">
+        <img src="rock.jpg" alt="rock">
+      </div>
+      <div class="choice" id="paper">
+        <img src="paper.jpg" alt="paper">
+      </div>
+      <div class="choice" id="scissor">
+        <img src="scissors.jpg" alt="scissor">
+      </div>
+  </div>
+  <div class="score-board">
+    <score>
+      <p id="user-score">0</p>
+      <p>You</p>
+    </score>
+  </div>
+  <div class="score-board">
+    <score>
+      <p id="comp-score">0</p>
+      <p>comp</p>
+    </score>
+  </div>
+  <div class="msg-container">
+    <p id="msg" class="change">Play ur move</p>
+  </div>
+</div>
+  <script src="game.js"></script>
+</body>
+</html>
